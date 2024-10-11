@@ -6,7 +6,9 @@ var kDarkColorScheme = ColorScheme.fromSeed(
     brightness: Brightness.dark, seedColor: const Color(0xffA5B68D));
 void main() {
   runApp(
+
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       darkTheme: ThemeData.dark().copyWith(
         colorScheme: kDarkColorScheme,
         cardTheme: const CardTheme().copyWith(
